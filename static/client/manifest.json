@@ -1,0 +1,29 @@
+{
+  "name": "Push Notification Demo",
+  "short_name": "PND",
+  "start_url": "/client/",
+  "theme_color": "#f6d32d",
+  "background_color": "#fff",
+  "orientation": "any",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/client/maskable_icon_x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/client/maskable_icon_x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/client/maskable_icon_x384.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

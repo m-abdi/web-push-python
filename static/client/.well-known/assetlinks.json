@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.mehdiabdi.web_push_client.twa",
+        "sha256_cert_fingerprints": ["57:B2:31:79:D8:4F:53:F5:02:68:7D:FB:F4:67:6F:FE:B2:6E:7B:84:EE:13:5E:C1:5B:ED:4A:61:3D:C7:30:26"]
+      }
+    }]

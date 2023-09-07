@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Push Notification Demo</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="./script.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <div id="box">
+        <h1 style="text-align: center;">Push Notification Demo Server</h1>
+        <ol>
+          <li>
+            Open the <a href="/client/" target="_blank">client demo</a> in another tab or browser and copy the number
+            shown in the page. This is the user_id.
+          </li>
+          <li>
+            Enter the user_id and a message in the bottom fields and click send.
+          </li>
+          <li>
+            You will see a notification on your OS tray. Make sure you allowed
+            notifications in the client tab and turned off "Do not disturb".
+          </li>
+        </ol>
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.2rem;
+          "
+        >
+          <input
+            name="user_id"
+            placeholder="user_id(optional)"
+            style="
+              height: 40px;
+              inline-size: 255px;
+              padding-inline: 10px;
+              font-size: 1.2rem;
+            "
+          />
+          <input
+            name="message"
+            required
+            placeholder="message"
+            style="
+              height: 40px;
+              inline-size: 255px;
+              padding-inline: 10px;
+              font-size: 1.2rem;
+            "
+          />
+          <button
+            style="
+              background-color: darkorange;
+              border-radius: 10px;
+              inline-size: 100px;
+              block-size: 40px;
+              font-size: 1.2rem;
+              padding-inline: 10px;
+            "
+            type="submit"
+          >
+            Send
+          </button>
+    
+          <p style="margin-top: 50px"></p>
+        </div>
+    </div>
+  </body>
+</html>
