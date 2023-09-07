@@ -47,7 +47,6 @@ app.mount("/server", StaticFiles(directory="static/server", html=True), name="se
 app.mount("/client", StaticFiles(directory="static/client", html=True), name="client")
 
 
-
 origins = [
     "http://localhost",
     "http://127.0.0.1:5501",

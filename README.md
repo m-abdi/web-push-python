@@ -2,7 +2,7 @@
 
 Welcome to the FastAPI Web Push API repository! This project showcases a powerful API built using Python and the FastAPI framework, specifically designed to streamline web push notification integration. Stay connected with your users in real-time and deliver timely updates with ease.
 
-Demo: [Web Push Server Demo](https://web-push.mehdiabdi.com)
+Demo: <a href="https://web-push.mehdiabdi.com" target="_blank">Web Push Demo</a>
 
 ## Key Features:
 
